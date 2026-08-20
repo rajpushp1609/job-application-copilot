@@ -1,0 +1,14 @@
+.venv/
+.browser-state/
+__pycache__/
+*.pyc
+data/jobs.json
+data/jobs_export.csv
+.DS_Store
+.env
+node_modules/
+.tmp-job-tracker/
+.cursor/
+output/
+outputs/
+

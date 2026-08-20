@@ -1,0 +1,211 @@
+{
+  "job_id": "JOB-101",
+  "company": "Libra",
+  "role": "Associate Product Manager (AI)",
+  "portal": "Ashby",
+  "apply_url": "https://jobs.ashbyhq.com/libra/f267e673-e06d-4025-bf65-9bb84881ffda/application",
+  "started_at": "2026-07-28T12:47:01.722720",
+  "fields_filled": [
+    {
+      "name": "_systemfield_name",
+      "label": "Name",
+      "value": "Pushp Raj"
+    },
+    {
+      "name": "_systemfield_email",
+      "label": "Email",
+      "value": "rajpushp1609@gmail.com"
+    },
+    {
+      "name": "5bfcc06c-80c8-493b-afdb-e1eb218b02cd",
+      "label": "Phone",
+      "value": "+91 7368089031"
+    }
+  ],
+  "stop_reason": "",
+  "submit_status": "error",
+  "submit_url": null,
+  "submit_body_snippet": null,
+  "network_responses": [
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiOrganizationFromHostedJobsPageName",
+      "status": 200,
+      "body": "{\"data\":{\"organization\":{\"__typename\":\"Organization\",\"organizationId\":\"b397a151-a931-4a53-86e6-5166e044125b\",\"name\":\"Libra AI, Inc\",\"publicWebsite\":\"https://trylibra.ai/\",\"customJobsPageUrl\":null,\"hostedJobsPageSlug\":\"libra\",\"allowJobPostIndexing\":true,\"isDemoOrg\":false,\"appConfirmationTrackingPixelHtml\":null,\"recruitingPrivacyPolicyUrl\":null,\"activeFeatureFlags\":[\"AiNotetakerCandidateConsentPolicies\",\"ApplicationForReferrals\",\"ApprovalNotesFromEmail\",\"BookingLinkRescheduleLimits\",\"CanonicalizeSchools\",\"CoreMultipleBrands\",\"CoreMultipleBrandsEnableUnbrandedSurveys\",\"CoreMultipleBrandsFeedFiltering\",\"CoreMultipleBrandsLinkedInJobWrappingStreamingFix\",\"CoreMultipleBrandsSurveyBrandOverrides\",\"DemoOrgBanners\",\"EducationHistoryFormField\",\"JobBoardCookieConsentControls\",\"JobBoardEtagValidation\""
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobPosting",
+      "status": 200,
+      "body": "{\"data\":{\"jobPosting\":{\"__typename\":\"JobPostingDetails\",\"id\":\"f267e673-e06d-4025-bf65-9bb84881ffda\",\"title\":\"Associate Product Manager (AI)\",\"departmentName\":\"Product\",\"departmentExternalName\":\"Product\",\"locationName\":\"Bengaluru\",\"locationAddress\":null,\"workplaceType\":\"OnSite\",\"employmentType\":\"FullTime\",\"descriptionHtml\":\"<h1>Job Title: Associate Product Manager (AI)</h1><p style=\\\"min-height:1.5em\\\"></p><h2>About the Role</h2><p style=\\\"min-height:1.5em\\\">We are seeking a highly motivated, technically skilled Associate Product Manager (AI) to join our team. This role is ideal for individuals with 1\u20133 years of experience and a strong technical foundation, with demonstrated exposure to AI. Interns and recent graduates passionate about product management in AI are also encouraged to apply.<"
+    },
+    {
+      "url": "https://sentry.io/api/1863591/envelope/?sentry_version=7&sentry_key=a8322b571f9b446994fd91336a8e71e3&sentry_client=sentry.javascript.browser%2F10.1.0",
+      "status": 200,
+      "body": "{}"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiOrganizationFromHostedJobsPageName",
+      "status": 200,
+      "body": "{\"data\":{\"organization\":{\"__typename\":\"Organization\",\"organizationId\":\"b397a151-a931-4a53-86e6-5166e044125b\",\"name\":\"Libra AI, Inc\",\"publicWebsite\":\"https://trylibra.ai/\",\"customJobsPageUrl\":null,\"hostedJobsPageSlug\":\"libra\",\"allowJobPostIndexing\":true,\"isDemoOrg\":false,\"appConfirmationTrackingPixelHtml\":null,\"recruitingPrivacyPolicyUrl\":null,\"activeFeatureFlags\":[\"AiNotetakerCandidateConsentPolicies\",\"ApplicationForReferrals\",\"ApprovalNotesFromEmail\",\"BookingLinkRescheduleLimits\",\"CanonicalizeSchools\",\"CoreMultipleBrands\",\"CoreMultipleBrandsEnableUnbrandedSurveys\",\"CoreMultipleBrandsFeedFiltering\",\"CoreMultipleBrandsLinkedInJobWrappingStreamingFix\",\"CoreMultipleBrandsSurveyBrandOverrides\",\"DemoOrgBanners\",\"EducationHistoryFormField\",\"JobBoardCookieConsentControls\",\"JobBoardEtagValidation\""
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiSetFormValue",
+      "status": 200,
+      "body": "{\"data\":{\"setFormValue\":{\"__typename\":\"FormRender\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd\",\"errorMessages\":[],\"formErrors\":[],\"sourceFormDefinitionId\":\"4aab2d38-f523-49c2-8396-9bdc988ca504\",\"formControls\":[{\"__typename\":\"FormControl\",\"identifier\":\"61d35a8f-cf86-43e4-8799-58eaeded79ff\",\"title\":\"Submit\"}],\"sections\":[{\"__typename\":\"FormSectionRender\",\"title\":\"Personal info\",\"descriptionHtml\":null,\"isHidden\":null,\"fieldEntries\":[{\"__typename\":\"FormFieldEntry\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd__systemfield_name\",\"field\":{\"id\":\"5a49b157-4355-4b0e-b6d7-c298bc4e021e\",\"path\":\"_systemfield_name\",\"humanReadablePath\":\"Name\",\"title\":\"Name\",\"isNullable\":false,\"isPrivate\":false,\"isDeactivated\":false,\"isMany\":false,\"metadata\":{},\"type\":\"String\",\"__autoSerializationID\":\"StringField\"},\"isRequi"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiSetFormValue",
+      "status": 200,
+      "body": "{\"data\":{\"setFormValue\":{\"__typename\":\"FormRender\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd\",\"errorMessages\":[],\"formErrors\":[],\"sourceFormDefinitionId\":\"4aab2d38-f523-49c2-8396-9bdc988ca504\",\"formControls\":[{\"__typename\":\"FormControl\",\"identifier\":\"61d35a8f-cf86-43e4-8799-58eaeded79ff\",\"title\":\"Submit\"}],\"sections\":[{\"__typename\":\"FormSectionRender\",\"title\":\"Personal info\",\"descriptionHtml\":null,\"isHidden\":null,\"fieldEntries\":[{\"__typename\":\"FormFieldEntry\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd__systemfield_name\",\"field\":{\"id\":\"5a49b157-4355-4b0e-b6d7-c298bc4e021e\",\"path\":\"_systemfield_name\",\"humanReadablePath\":\"Name\",\"title\":\"Name\",\"isNullable\":false,\"isPrivate\":false,\"isDeactivated\":false,\"isMany\":false,\"metadata\":{},\"type\":\"String\",\"__autoSerializationID\":\"StringField\"},\"fieldVa"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiSetFormValue",
+      "status": 200,
+      "body": "{\"data\":{\"setFormValue\":{\"__typename\":\"FormRender\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd\",\"errorMessages\":[],\"formErrors\":[],\"sourceFormDefinitionId\":\"4aab2d38-f523-49c2-8396-9bdc988ca504\",\"formControls\":[{\"__typename\":\"FormControl\",\"identifier\":\"61d35a8f-cf86-43e4-8799-58eaeded79ff\",\"title\":\"Submit\"}],\"sections\":[{\"__typename\":\"FormSectionRender\",\"title\":\"Personal info\",\"descriptionHtml\":null,\"isHidden\":null,\"fieldEntries\":[{\"__typename\":\"FormFieldEntry\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd__systemfield_name\",\"field\":{\"id\":\"5a49b157-4355-4b0e-b6d7-c298bc4e021e\",\"path\":\"_systemfield_name\",\"humanReadablePath\":\"Name\",\"title\":\"Name\",\"isNullable\":false,\"isPrivate\":false,\"isDeactivated\":false,\"isMany\":false,\"metadata\":{},\"type\":\"String\",\"__autoSerializationID\":\"StringField\"},\"isRequi"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiSetFormValue",
+      "status": 200,
+      "body": "{\"data\":{\"setFormValue\":{\"__typename\":\"FormRender\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd\",\"errorMessages\":[],\"formErrors\":[],\"sourceFormDefinitionId\":\"4aab2d38-f523-49c2-8396-9bdc988ca504\",\"formControls\":[{\"__typename\":\"FormControl\",\"identifier\":\"61d35a8f-cf86-43e4-8799-58eaeded79ff\",\"title\":\"Submit\"}],\"sections\":[{\"__typename\":\"FormSectionRender\",\"title\":\"Personal info\",\"descriptionHtml\":null,\"isHidden\":null,\"fieldEntries\":[{\"__typename\":\"FormFieldEntry\",\"id\":\"edd9fa35-0bd0-446a-9a8d-c94046f966dd__systemfield_name\",\"field\":{\"id\":\"5a49b157-4355-4b0e-b6d7-c298bc4e021e\",\"path\":\"_systemfield_name\",\"humanReadablePath\":\"Name\",\"title\":\"Name\",\"isNullable\":false,\"isPrivate\":false,\"isDeactivated\":false,\"isMany\":false,\"metadata\":{},\"type\":\"String\",\"__autoSerializationID\":\"StringField\"},\"isRequi"
+    },
+    {
+      "url": "https://www.recaptcha.net/recaptcha/api2/reload?k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A6r49Y",
+      "status": 200,
+      "body": ")]}'\n[\"rresp\",\"0cAFcWeA5TNvJTOJjr0gTsekX-8LcNAZrkomcGSfWUSB4GWspzHm_4_CeLFGicfG5csojr8GegliWk0wAIEkxHYWKSRdxOXxZa9vWKDMu0BdBRn4UB_y51MYXfChM6jMmJ7Eee_2065ZqOsZ26bc-3LTa1DmHK4K1nUtEzEZ_Ixq0uk6Fs4Y8a-0-qcqGaPwA5cxBU0Eh37RyFaGNgnlKn6qaS3NF33sJ8mvEF3WWeYgOIWpxJFfLRiUkHWSVOhNBF0dCuItGkP0Id0JuqnOspoWh0JJLaANoXm2SQfxId1sVu01QAjVBRqk55JOShblgDG-HUoCrGSPXLJpR1c2quKbT5mPdxP4fwWsZ5qmJOZVALTzFeXfrDB8EtXbIScU2faSJnfAEZMmTbVTlcZPXiKyULSWRy3zoW0np2r1mqh8ZTYqQXTv1FmYzK87VdP1MmHXVEdoGev2KqPwWz_PzmQuH_9UVwFMxSwEkU3QU5WPcx0BfvS2vk110biz7fMr-T1eqSRDx0eUPIj0_I78O5TpaYihgZsQSPRmOIESmEUy01w76-hKhVHqLt_F2QbVm_DgMMF-zi1OWFbkyS9CqbAdvEoV6MIevTQUc7PJS0FCmkqmt5A7jCjOF4ZMRUIE4BZZXCv1d8K2O3iz2EmMJ4p5ZUywT5hlJqtNMm_u5PVpbJvHDbfsZi8p5tEIiRYrfyfY8U2ThlxMqrx4wP5aJWxAv3Ta6oqoX20D9x7gOWV0Va4YxVfHGUS-Lk3OPb8R3H6LwNsKmGI6QlQlE"
+    },
+    {
+      "url": "https://e9c0fca08ff01f9c619e4500c5ad7d58.seondnsresolve.com/",
+      "status": 200,
+      "body": "{\"data\":\"\"}"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiSubmitSingleApplicationFormAction",
+      "status": 200,
+      "body": "{\"errors\":[{\"message\":\"Your application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again.\",\"extensions\":{\"ashbyErrorId\":\"031ba41a-2e79-4c88-b449-a50290053d58\",\"ashbyErrorType\":\"RECAPTCHA_SCORE_BELOW_THRESHOLD\",\"message\":\"Your application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again.\"}}],\"data\":null}"
+    }
+  ],
+  "fields_discovered": [
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "required": false,
+      "label": "",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "_systemfield_name",
+      "id": "_systemfield_name",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "Name",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "_systemfield_email",
+      "id": "_systemfield_email",
+      "placeholder": "hello@example.com...",
+      "required": true,
+      "label": "Email",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "",
+      "id": "_systemfield_resume",
+      "placeholder": "",
+      "required": true,
+      "label": "Resume",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "tel",
+      "name": "5bfcc06c-80c8-493b-afdb-e1eb218b02cd",
+      "id": "5bfcc06c-80c8-493b-afdb-e1eb218b02cd",
+      "placeholder": "1-415-555-1234...",
+      "required": false,
+      "label": "Phone",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "0b967758-3887-4829-ac4c-99b88689b186",
+      "id": "0b967758-3887-4829-ac4c-99b88689b186",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "Link to something you built",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "431ceef9-2fa1-414d-a801-f80d36609e9f",
+      "id": "431ceef9-2fa1-414d-a801-f80d36609e9f",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "Do you have prior product management experience?",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "727831ed-920b-4870-8b43-014e4043bf4b",
+      "id": "727831ed-920b-4870-8b43-014e4043bf4b",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "What is product management according to you?",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "766dea77-5fb2-4b13-9aa3-93207aea0c0c",
+      "id": "766dea77-5fb2-4b13-9aa3-93207aea0c0c",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "what was your last comp?",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "86cd93ff-1c8d-43e6-be75-c55582adf931",
+      "id": "86cd93ff-1c8d-43e6-be75-c55582adf931",
+      "placeholder": "Type here...",
+      "required": true,
+      "label": "How soon can you join if we decide to move forward?",
+      "visible": true,
+      "ariaLabel": ""
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "g-recaptcha-response",
+      "id": "g-recaptcha-response-100000",
+      "placeholder": "",
+      "required": false,
+      "label": "",
+      "visible": false,
+      "ariaLabel": ""
+    }
+  ],
+  "submit_error": "Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation until 'load'\n============================================================ / Page.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"Submit\\\")\")\n",
+  "finished_at": "2026-07-28T12:48:07.936122"
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Copilot - Pushp Raj</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="copilot-container">
+    <!-- Top Header Bar -->
+    <header class="copilot-header">
+      <div class="brand">
+        <div class="logo">🎯</div>
+        <div>
+          <h1>Job Copilot</h1>
+          <p class="subtitle">Pushp Raj • PM & Analyst</p>
+        </div>
+      </div>
+      <div class="status-badge" id="atsBadge">Scanning...</div>
+    </header>
+
+    <!-- Hard Rules Quick Summary Pill Bar -->
+    <div class="rules-bar">
+      <span class="rule-pill">Exp: 3.5 yrs</span>
+      <span class="rule-pill">Current: 25 LPA</span>
+      <span class="rule-pill">Expected: 27 LPA</span>
+      <span class="rule-pill rule-highlight">Bot Check: Always No</span>
+    </div>
+
+    <!-- Active Tab & Page Info -->
+    <div class="page-card" id="pageCard">
+      <div class="page-title" id="pageTitle">Detecting active form...</div>
+      <div class="page-url" id="pageUrl">--</div>
+    </div>
+
+    <!-- Actions Toolbar -->
+    <div class="action-toolbar">
+      <button class="btn btn-primary" id="btnFillForm">
+        <span>✨</span> 1-Click Fill Form
+      </button>
+      <button class="btn btn-secondary" id="btnScan">
+        <span>🔄</span> Rescan DOM
+      </button>
+    </div>
+
+    <!-- Field Preview Section -->
+    <section class="preview-section">
+      <div class="section-header">
+        <h2>Field Fill Preview</h2>
+        <span class="count-badge" id="fieldCount">0 fields</span>
+      </div>
+
+      <div class="preview-list" id="previewList">
+        <div class="empty-state">Click "Rescan DOM" or open an ATS job application form.</div>
+      </div>
+    </section>
+
+    <!-- AI Generator Section -->
+    <section class="ai-section" id="aiSection" style="display: none;">
+      <div class="section-header">
+        <h2>🤖 AI Screening Assistant</h2>
+      </div>
+      <div class="ai-box">
+        <div class="field-label" id="aiQuestionLabel">Selected Screening Question</div>
+        <textarea id="aiAnswerText" class="ai-textarea" rows="3" placeholder="AI answer will appear here..."></textarea>
+        <div class="ai-actions">
+          <button class="btn btn-small btn-primary" id="btnGenerateAI">Generate Answer</button>
+          <button class="btn btn-small btn-outline" id="btnSaveQBank">Save to Question Bank</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Post Submission Trigger -->
+    <section class="submit-section">
+      <button class="btn btn-success" id="btnMarkApplied">
+        <span>✅</span> Confirm & Mark as Applied
+      </button>
+    </section>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
