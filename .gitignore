@@ -1,14 +1,28 @@
-.venv/
-.browser-state/
-__pycache__/
-*.pyc
+# Environment & secrets
+.env
+
+# Personal data (user-specific, not for public repo)
+profile.json
+job_application_policy.md
+data/question_bank.json
+data/archived_jobs.json
 data/jobs.json
 data/jobs_export.csv
-.DS_Store
-.env
+
+# Agent rules (contains personal form-fill values)
+.agents/
+
+# Application tracker data
+tracker_live/
+
+# Build & runtime
+.venv/
 node_modules/
+__pycache__/
+*.pyc
+.browser-state/
 .tmp-job-tracker/
 .cursor/
 output/
 outputs/
-
+.DS_Store

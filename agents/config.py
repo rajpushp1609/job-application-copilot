@@ -13,8 +13,8 @@ PROFILE_PATH = ROOT / "profile.json"
 DATA_DIR = ROOT / "data"
 JOBS_PATH = DATA_DIR / "jobs.json"
 BROWSER_STATE_DIR = ROOT / ".browser-state"
-RESUME_PATH = ROOT / "output" / "pdf" / "Pushp_Raj_Resume_Revised.pdf"
-TRACKER_PATH = ROOT / "outputs" / "job_application_tracker" / "Pushp_Raj_Job_Application_Tracker.xlsx"
+RESUME_PATH = ROOT / "output" / "pdf" / "resume.pdf"
+TRACKER_PATH = ROOT / "outputs" / "job_application_tracker" / "job_application_tracker.xlsx"
 
 
 @dataclass
@@ -110,20 +110,9 @@ def load_profile(path: Optional[Path] = None) -> ApplicantProfile:
             experience_stories=data.get("experience_stories", {}),
         )
 
-    return ApplicantProfile(
-        name="Pushp Raj",
-        email="rajpushp1609@gmail.com",
-        phone="+91 7368089031",
-        linkedin="",
-        location="Bengaluru, India",
-        notice_period_days=30,
-        total_experience_years=3.5,
-        resume_path=str(RESUME_PATH),
-        experience_stories={
-            "fintech": "At Navi, I built a large-scale Account Aggregator experience supporting 50K+ daily users and improved pre-purchase conversion by 20-25% through funnel analysis and A/B experiments.",
-            "edtech": "At Wayground, I scaled Voyage Math to 5K monthly active teachers within four months and improved AI quiz publish rate from 65% to 75% via experimentation.",
-            "analytics": "At SquadStack, I generated acquisition and retention insights contributing to $3M annual revenue and reduced turnaround time by 32%.",
-        },
+    raise FileNotFoundError(
+        f"Profile not found at {path}. "
+        f"Copy profile.example.json to profile.json and fill in your details."
     )
 
 

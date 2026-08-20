@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Job Copilot - Pushp Raj",
+  "name": "Job Copilot",
   "version": "1.0.0",
-  "description": "1-Click Job Application Auto-Fill & AI Screening Assistant for Pushp Raj",
+  "description": "1-Click Job Application Auto-Fill & AI Screening Assistant",
   "permissions": [
     "activeTab",
     "sidePanel",
